@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="396.5dp"
+        android:id="@+id/linearLayout1">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:id="@+id/uname"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:paddingTop="250px" />
+
+
+        <EditText
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pword"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="25px" />
+
+
+        <Button
+            android:textColor="@android:color/white"
+            android:background="@color/accent_material_light"
+            android:text="Login"
+            android:height="70dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:layout_marginTop="40px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px" />
+
+
+        <Button
+            android:textColor="@android:color/white"
+            android:background="@color/material_blue_grey_800"
+            android:text="Create an account"
+            android:height="100dip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/create"
+            android:layout_marginTop="15px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
